@@ -1,12 +1,128 @@
-<div class="product-card">
-    <h2>Product 1</h2>
-    <p>Description of Product 1</p>
-    <span>Price: $10.00</span>
-    <!-- Button removed -->
-</div>
-<div class="product-card">
-    <h2>Product 2</h2>
-    <p>Description of Product 2</p>
-    <span>Price: $20.00</span>
-    <!-- Button removed -->
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sleep Engine World - Premium Mattresses</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Sleep Engine World</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Experience Ultimate Comfort</h1>
+            <p>Discover our premium collection of mattresses designed for perfect sleep</p>
+            <button class="cta-btn">Shop Now</button>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Our Premium Mattresses</h2>
+            <div class="product-grid">
+                <!-- Mattress 1 -->
+                <div class="product-card">
+                    <img src="mattress1.jpg" alt="Luxury Cloud Mattress" class="product-img">
+                    <h3>Luxury Cloud Mattress</h3>
+                    <p class="price">$899</p>
+                    <p class="description">Premium memory foam with cooling gel technology. Perfect for side sleepers seeking cloud-like comfort.</p>
+                    <ul class="features">
+                        <li>✓ 12-inch memory foam</li>
+                        <li>✓ Cooling gel infused</li>
+                        <li>✓ 10-year warranty</li>
+                        <li>✓ Free shipping</li>
+                    </ul>
+                </div>
+
+                <!-- Mattress 2 -->
+                <div class="product-card">
+                    <img src="mattress2.jpg" alt="Supreme Support Mattress" class="product-img">
+                    <h3>Supreme Support Mattress</h3>
+                    <p class="price">$1,299</p>
+                    <p class="description">Hybrid construction with innerspring coils and latex. Ideal for back sleepers needing firm support.</p>
+                    <ul class="features">
+                        <li>✓ Hybrid construction</li>
+                        <li>✓ Natural latex layer</li>
+                        <li>✓ Motion isolation</li>
+                        <li>✓ 100-night trial</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>Why Choose Sleep Engine World?</h2>
+            <div class="about-content">
+                <div class="about-item">
+                    <h3>🛏️ Premium Quality</h3>
+                    <p>We only use the finest materials sourced from trusted manufacturers worldwide.</p>
+                </div>
+                <div class="about-item">
+                    <h3>💤 Sleep Science</h3>
+                    <p>Our mattresses are designed with sleep science principles for optimal rest and recovery.</p>
+                </div>
+                <div class="about-item">
+                    <h3>🎁 Best Warranty</h3>
+                    <p>All our mattresses come with comprehensive warranties and satisfaction guarantees.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Communication Section -->
+    <section id="communication" class="communication">
+        <div class="container">
+            <h2>Need Help? Contact Us Directly</h2>
+            <div class="communication-options">
+                <a href="tel:9017619611" class="call-btn">
+                    <span>📞</span>
+                    <span>Call Us: 9017619611</span>
+                </a>
+                <a href="https://wa.me/919017619611" target="_blank" class="whatsapp-btn">
+                    <span>💬</span>
+                    <span>Chat on WhatsApp</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Sleep Engine World. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
